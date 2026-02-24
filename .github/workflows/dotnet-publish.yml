@@ -6,5 +6,5 @@ jobs:
   Dotnet-Publish:
     runs-on: ubuntu-latest
     steps:
-    - run: dotnet publish Program -c Release -p:PublishSingleFile=true -p:PublishTrimmed=true -p:PublishReadyToRun=false
+    - run: dotnet publish Program/Program.csproj -c Release -p:PublishSingleFile=true -p:PublishTrimmed=true -p:PublishReadyToRun=false
   
