@@ -1,0 +1,3 @@
+- name: Publish win-x64
+  run: dotnet publish Program -c Release -r win7-x64 -p:PublishSingleFile=true -p:PublishTrimmed=true -p:PublishReadyToRun=false
+  
